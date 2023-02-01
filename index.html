@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube-Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/youtube-icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="logo-container">
+            <i class="ri-menu-line"></i>
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="img/youtube-icon.png" alt="">
+                </div>
+                <h1 id="logo-txt">YouTube</h1>
+            </div>
+        </div>
+        <div class="search-container">
+            <form action="">
+                <input type="text" placeholder="Search">
+            </form>
+            <button class="search"><i class="ri-search-line"></i></button>
+            <button class="mic"><i class="ri-mic-line"></i></button>
+        </div>
+        <div class="profile-container">
+            <i class="ri-video-add-line"></i>
+            <i class="ri-grid-fill"></i>
+            <i class="ri-notification-4-line"></i>
+            <div class="profile-box">
+                <img src="img/profile.png" alt="user profile">
+            </div>
+        </div>
+    </div>
+    <div class="body-container">
+        <div class="sidebar">
+            <div class="sidebar-items">
+                <a href="#" class="sidebar-item"><i class="ri-home-5-line"></i>Home</a>
+                <a href="#" class="sidebar-item"><i class="ri-compass-3-line"></i>Explore</a>
+                <a href="#" class="sidebar-item"><i class="ri-wireless-charging-line"></i>Shorts</a>
+                <a href="#" class="sidebar-item"><i class="ri-rss-line"></i>Subscription</a>
+                <hr>
+                <a href="#" class="sidebar-item"><i class="ri-links-line"></i>Library</a>
+                <a href="#" class="sidebar-item"><i class="ri-history-line"></i>History</a>
+                <a href="#" class="sidebar-item"><i class="ri-video-line"></i>Your videos</a>
+                <a href="#" class="sidebar-item"><i class="ri-time-line"></i>Watch later</a>
+                <a href="#" class="sidebar-item"><i class="ri-play-list-2-line"></i>All videos</a>
+                <a href="#" class="sidebar-item"><i class="ri-arrow-down-s-line"></i>Show more</a>
+                <hr>
+                <h4 class="more">More from youtube</h4>
+                <a href="#" class="sidebar-item"><i class="ri-keyboard-box-line"></i>Gaming</a>
+                <a href="#" class="sidebar-item"><i class="ri-live-line"></i>Live</a>
+                <a href="#" class="sidebar-item"><i class="ri-award-line"></i>Sports</a>
+                <hr>
+                <a href="#" class="sidebar-item"><i class="ri-settings-5-line"></i>Settings</a>
+                <a href="#" class="sidebar-item"><i class="ri-flag-line"></i>Report history</a>
+                <a href="#" class="sidebar-item"><i class="ri-question-line"></i>Help</a>
+                <a href="#" class="sidebar-item"><i class="ri-feedback-line"></i>Send feedback</a>
+            </div>
+        </div>
+        <div class="content">
+            <div class="chips-wrapper">
+                <div class="chip">
+                    <p>All</p>
+                </div>
+                <div class="chip">
+                    <p>Microverse</p>
+                </div>
+                <div class="chip">
+                    <p>freeCodeCamp</p>
+                </div>
+                <div class="chip">
+                    <p>Learn programming</p>
+                </div>
+                <div class="chip">
+                    <p>HTML</p>
+                </div>
+                <div class="chip">
+                    <p>CSS</p>
+                </div>
+                <div class="chip">
+                    <p>Node.js</p>
+                </div>
+                <div class="chip">
+                    <p>Responsive Design</p>
+                </div>
+                <div class="chip">
+                    <p>Type script</p>
+                </div>
+                <div class="chip">
+                    <p>Python</p>
+                </div>
+                <div class="chip">
+                    <p>React</p>
+                </div>
+                <div class="chip">
+                    <p> Windows</p>
+                </div>
+                <div class="chip">
+                    <p>Linux</p>
+                </div>
+                <div class="chip">
+                    <p>Cyber-security</p>
+                </div>
+                <div class="chip">
+                    <p>UI/UX</p>
+                </div>
+                <div class="chip">
+                    <p>MORE...</p>
+                </div>
+            </div>
+            <div class="video-container">
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/python1.jpg" alt="video python">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo.jpg" alt="">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Start to learn python now</h3>
+                            <div class="channel-name">freeCodeCamp</div>
+                            <div class="views-upload">
+                                <div class="view">22.5M views</div>
+                                <div class="upload">1 year ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/micro1.jpg" alt="microverse">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo2.png" alt="logo-microverse">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Microverse Success Story</h3>
+                            <div class="channel-name">Microverse</div>
+                            <div class="views-upload">
+                                <div class="view">2.5M views</div>
+                                <div class="upload">1 month ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/code.jpg" alt="codecademie">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo3.png" alt="logo-codecademie">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Start to learn Cyber-security</h3>
+                            <div class="channel-name">Codecademy</div>
+                            <div class="views-upload">
+                                <div class="view">225k views</div>
+                                <div class="upload">5 minutes ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/design.png" alt="Design">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo4.png" alt="logo-designer">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Some tips to become a good designer</h3>
+                            <div class="channel-name">Aradra le Designer</div>
+                            <div class="views-upload">
+                                <div class="view">1.3M views</div>
+                                <div class="upload">3 days ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/openai1.jpg" alt="Openai">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/profile.png" alt="logo-openai">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">How to learn Programming in 2023</h3>
+                            <div class="channel-name">Aradra224</div>
+                            <div class="views-upload">
+                                <div class="view">16.7M views</div>
+                                <div class="upload">2 years ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/microv.jpg" alt="microverse">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo2.png" alt="logo-microverse">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Do you want to be a good programmer join us</h3>
+                            <div class="channel-name">Microverse</div>
+                            <div class="views-upload">
+                                <div class="view">9M views</div>
+                                <div class="upload">3 years ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/micro2.jpg" alt="microverse">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo2.png" alt="logo-microverse">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">What is Microverse ?</h3>
+                            <div class="channel-name">Microverse</div>
+                            <div class="views-upload">
+                                <div class="view">19M views</div>
+                                <div class="upload">2 years ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/visas.jpg" alt="microverse">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo3.png" alt="logo-microverse">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">What is the best website to learn online</h3>
+                            <div class="channel-name">Codecademy</div>
+                            <div class="views-upload">
+                                <div class="view">82.2k views</div>
+                                <div class="upload">3 days ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+                <div class="video-content-cover">
+                    <div class="video-content">
+                        <a href="#" class="video-box">
+                            <img src="img/openai2.png" alt="openai">
+                        </a>
+                    </div>
+                    <div class="video-details">
+                        <div class="channel-logo">
+                            <img src="img/logo.jpg" alt="logo-openai">
+                        </div>
+                        <div class="detail">
+                            <h3 class="title">Why GPT3 is dangerous for begginners</h3>
+                            <div class="channel-name">freeCodeCamp</div>
+                            <div class="views-upload">
+                                <div class="view">4.9M views</div>
+                                <div class="upload">3 months ago</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hidden-content">
+                        <div class="btn"><i class="ri-time-line">Watch later</i></div>
+                        <div class="btn"><i class="ri-play-list-2-line">Add to queue</i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
